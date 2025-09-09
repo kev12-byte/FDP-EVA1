@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_12_IF"/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-08 04:23:51 p. m."/>
+        <attribute name="created" value="QWRtaW47REVTS1RPUC04Qk43MUJKOzIwMjUtMDktMDg7MDQ6MTc6MDIgcC4gbS47Mjk4OA=="/>
+        <attribute name="edited" value="QWRtaW47REVTS1RPUC04Qk43MUJKOzIwMjUtMDktMDg7MDQ6MjM6NTEgcC4gbS47MTszMDk3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Califa" type="Integer" array="False" size=""/>
+            <output expression="&quot;Intrdoduce la calificacion&quot;" newline="True"/>
+            <input variable="Califa"/>
+            <if expression="Califa &gt;= 70">
+                <then>
+                    <output expression="&quot;Acreditaste la materia&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;No acreditaste la materia&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
